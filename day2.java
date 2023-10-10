@@ -1,7 +1,7 @@
 package day2;
 //Tipe data primitif memiliki nilai yang langsung dapat digunakan, 
 //sedangkan tipe data non-primitif adalah objek yang memiliki metode tambahan untuk berinteraksi dengannya.
-
+ 
 public class Day2 {
 
     public static void main(String[] args) {
