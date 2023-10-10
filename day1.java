@@ -1,7 +1,6 @@
-package day1;
+package days.of.coding;
 
-public class Day1 {
-
+public class day1 {
     public static void main(String[] args) {
         String nama = "NURPADILA";
         String alamat = "SENDANA";
@@ -10,7 +9,7 @@ public class Day1 {
         String prodi = "informatika";
         long angkatan = 2021;
         double tinggi_badan = 158;
-        float berat_badan = 58;
+        float berat_badan = 59;
         boolean belum_menikah = true;
         System.out.println("Nama :"+nama);
         System.out.println("Alamat :"+alamat);
@@ -24,4 +23,3 @@ public class Day1 {
     }
     
 }
-
