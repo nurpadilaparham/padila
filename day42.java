@@ -9,11 +9,9 @@ public class day42 {
     }
 
     public static long hitungFaktorial(int n) {
-        // Basis: Faktorial dari 0 atau 1 adalah 1
         if (n == 0 || n == 1) {
             return 1;
         } else {
-            // Rekursi: n! = n * (n-1)!
             return n * hitungFaktorial(n - 1);
         }
     }
