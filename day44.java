@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class day44 {
 
     public static void main(String[] args) {
-        Scanner cc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int nilai;
         String nama,predikat;
 
@@ -13,9 +13,9 @@ public class day44 {
         System.out.println("----------------------------------------");
 
         System.out.print("Masukkan nama mahasiswa   : ");
-        nama = cc.nextLine();
+        nama = input.nextLine();
         System.out.print("Masukkan nilai            : ");
-        nilai = cc.nextInt();
+        nilai = input.nextInt();
 
         if (nilai >=80 ) {
             predikat = "A";
