@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class day70 {
     public static void main(String[] args) {
-        //program operator logika rentang nilai yang diizinkan
+        //program operator or rentang nilai yang diizinkan
         //membuat objek scanner yang bernama pdl, agar sebuah inputan berfungsi dan disimpan dalam objek scanner
         Scanner pdl = new Scanner(System.in);
 
